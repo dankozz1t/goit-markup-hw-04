@@ -136,16 +136,6 @@ body {
   margin-right: 10px;
 }
 
-.icon.mail {
-  width: 16px;
-  height: 12px;
-}
-
-.icon.phone {
-  width: 10px;
-  height: 16px;
-}
-
 /* ------------ section-hero ------------ */
 
 .section-hero {
@@ -228,11 +218,6 @@ body {
   text-align: center;
   border-radius: 4px;
   background-color: var(--section-background-color);
-}
-
-.card-icon {
-  width: 70px;
-  height: 70px;
 }
 
 .features-title {
@@ -338,11 +323,6 @@ body {
   border-radius: 50%;
   background-color: var(--accent-color);
   fill: var(--white-color);
-}
-
-.link-icon {
-  width: 20px;
-  height: 20px;
 }
 
 /* ------------  section-customers  ------------ */
@@ -461,11 +441,6 @@ body {
 .join-link:focus {
   background-color: var(--accent-color);
   fill: var(--white-color);
-}
-
-.link-icon {
-  width: 20px;
-  height: 20px;
 }
 
 /* ------------ portfolio ------------ */
