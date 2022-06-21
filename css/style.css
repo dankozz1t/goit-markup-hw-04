@@ -16,9 +16,10 @@ body {
 }
 
 .list {
-  list-style: none;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .link {
@@ -69,7 +70,36 @@ body {
   color: var(--white-color);
 }
 
+.flex {
+  display: flex;
+}
+
 /* ------------ Header ------------  */
+.header {
+  padding: 25px 0 25px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+}
+
+.header-center .item:not(:last-child) {
+  margin: 0 50px 0 0;
+}
+
+.header li {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.header .link.current {
+  color: var(--accent-color);
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -79,23 +109,33 @@ body {
   margin-right: 94px;
 }
 
-.main-nav .item:not(:last-child) {
-  margin: 0 50px 0 0;
-}
-
-.contact {
-  display: flex;
-  text-align: center;
+.nav-link {
+  color: var(--title-text-color);
 }
 
 .contacts {
   margin-left: auto;
 }
 
+.contact-link {
+  color: var(--primary-text-color);
+  fill: var(--primary-text-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
 .icon {
   margin-right: 10px;
-  display: flex;
-  text-align: center;
 }
 
 .icon.mail {
@@ -106,38 +146,6 @@ body {
 .icon.phone {
   width: 10px;
   height: 16px;
-}
-
-.item > .contact:hover,
-.item > .contact:focus {
-  fill: var(--accent-color);
-}
-
-.flex {
-  display: flex;
-}
-
-.header {
-  padding: 25px 0 25px 0;
-  border-bottom: 1px solid #ececec;
-}
-
-.header .link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.17;
-}
-
-.header-link {
-  color: var(--title-text-color);
-}
-
-.header .link.current {
-  color: var(--accent-color);
-}
-
-.contact {
-  color: var(--primary-text-color);
 }
 
 /* ------------ section-hero ------------ */
