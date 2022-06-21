@@ -293,7 +293,8 @@ body {
 
 .teams-social {
   display: flex;
-  padding: 0 32px;
+  padding: 0;
+  justify-content: center;
 }
 
 .social-item {
